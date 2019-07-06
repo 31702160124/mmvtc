@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/img_Left_tv"
+        android:background="@drawable/bg0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Student_image"
+                android:layout_width="106dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:background="@drawable/radio2"
+                android:id="@+id/mane"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:text="茂名职业技术职院"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:alpha="0.9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg0"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lv_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5e78c8"
+                android:entries="@array/languages"
+                android:scrollbars="none"></ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

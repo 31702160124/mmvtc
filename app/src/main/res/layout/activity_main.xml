@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:filterTouchesWhenObscured="true"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+    <fragment
+        android:id="@+id/left_fragment"
+        android:name="com.funsoul.jwcmmvtc.fragment.LeftFragment"
+        android:layout_width="250dp"
+        android:layout_height="match_parent" ></fragment>
+
+    <fragment
+        android:id="@+id/right_fragment"
+        android:name="com.funsoul.jwcmmvtc.fragment.RightFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" ></fragment>
+
+</android.support.v4.widget.SlidingPaneLayout>
+

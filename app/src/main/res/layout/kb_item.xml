@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/t_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kebiao_tv"
+        android:gravity="center"
+        android:padding="5dp"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/b_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kebiao_tv"
+        android:gravity="center"
+        android:padding="5dp" />
+
+</LinearLayout>
